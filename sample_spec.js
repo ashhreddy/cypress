@@ -2,15 +2,15 @@ describe("description of the test", () => {
 
    
     beforeEach("Login and Navigate to Scenario Builder", () => {
-        cy.visit("https://geminiweb.cartegraph.com/SpaghettiNation");
+        cy.visit("URL");
 
         cy.get("input[id=UserName]").clear(); 
 
         cy.get("input[id=Password]").clear();
 
-        cy.get("input[id=UserName]").type("cgadmin");
+        cy.get("input[id=UserName]").type("username");
 
-        cy.get("input[id=Password]").type("cartegraph");
+        cy.get("input[id=Password]").type("password");
 
         cy.get("button:contains('Sign In')").click();
 
