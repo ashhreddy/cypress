@@ -1,7 +1,7 @@
 describe("Regression Suite Smoke Tests", () => {
 
     beforeEach("Login and Navigate to Scenario Builder", () => {
-        cy.visit("https://omsweb02.cartegraphoms.com/spaghettination");
+        cy.visit("https://URL ");
 
         cy.get("input[id=UserName]").clear();
 
